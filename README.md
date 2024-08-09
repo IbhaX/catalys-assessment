@@ -85,3 +85,6 @@
 
 
   The server will start on `http://localhost:5000`.
+
+  ## Live Site
+  - The live site is hosted on Render.com and can be accessed at [https://catalys-assessment.onrender.com](https://catalys-assessment.onrender.com).
