@@ -88,3 +88,4 @@
 
   ## Live Site
   - The live site is hosted on Render.com and can be accessed at [https://catalys-assessment.onrender.com](https://catalys-assessment.onrender.com).
+  - Note: Service may be down due to inactivity, which can delay requests by 50 seconds or more. Only for the first request.
