@@ -30,5 +30,9 @@ def create_app():
     api.add_resource(HealthCheckResource, '/health')
     api.add_resource(FetchDataResource, '/fetch-data')
     api.add_resource(ProcessedDataResource, '/get-processed-data')
-    
+    # Add default 404 endpoint
+    @app.errorhandler(404)
+    def not_found(error):
+        return {'error': 'Not Found'}, 404
+
     return app
